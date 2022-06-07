@@ -1,3 +1,14 @@
+---
+title: "Roasted Coffee"
+date: 2022-6-7T11:02:05+06:00
+lastmod: 2022-6-7T11:02:05+06:00
+url: "risks/roasted-coffee"
+weight: 3
+draft: false
+# search related keywords
+keywords: [""]
+---
+
 #### DISCLOSURE AND DISCLAIMER 
 
 1) The information that follows from Donnay Detoxicology LLC contains links to collections of peerreviewed articles about carbon monoxide that open webpages of the US National Library of Medicine at [http://www.pubmed.ncbi.nlm.nih.gov.](http://www.pubmed.ncbi.nlm.nih.gov.) From the PubMed site--over which Donnay Detoxicology LLC has no control--you can save or export the articles in the collections. 
