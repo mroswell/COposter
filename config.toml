@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://demo.gethugothemes.com/dot/examplesite/"
+baseURL = "https://demo.gethugothemes.com/"
 # theme
 theme = "dot-hugo"
 # site title
@@ -16,6 +16,7 @@ unsafe = true
 
 ############################# Default Parameters ##########################
 [params]
+downloadBtn = true
 # logo is for all page
 logo = ""
 # logo white is for homepage logo, you can use colorful logo too...
@@ -113,14 +114,14 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Installation"
-  url = "installation/"
+  name = "Conditions"
+  url = "conditions/"
   weight = 1
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing/"
+  name = "Risks"
+  url = "risks/"
   weight = 2
 
   [[Languages.en.menu.main]]
@@ -130,68 +131,68 @@ hasChildren = true
   weight = 3
 
 
-################################### Franch Language ######################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-weight = 2
-copyright = "Copyright &copy; 2021 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
-
-# banner
-[Languages.fr.params.banner]
-title = "Comment pouvons nous aider?"
-subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
-bg_image = "images/banner.jpg"
-placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
-
-# call to action
-[Languages.fr.params.cta]
-enable = true
-title = "Vous n'avez pas trouvé de réponse à votre question?"
-content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
-# call to action button
-[Languages.fr.params.cta.button]
-enable = true
-label = "Contactez nous"
-link = "contact/"
-
-
-################## french navigation #################
-[[Languages.fr.menu.main]]
-name = "Accueil"
-url = "/"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "Faq"
-url = "faq/"
-weight = 2
-
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "contact/"
-weight = 3
-
-# Dropdown menu
-[[Languages.fr.menu.main]]
-weight = 4
-name = "docs"
-hasChildren = true
-
-  [[Languages.fr.menu.main]]
-  parent = "docs"
-  name = "Installation"
-  url = "installation/"
-  weight = 1
-
-  [[Languages.fr.menu.main]]
-  parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing/"
-  weight = 2
-
-  [[Languages.fr.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features/"
-  weight = 3
+# ################################### Franch Language ######################
+# [Languages.fr]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# weight = 2
+# copyright = "Copyright &copy; 2021 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
+#
+# # banner
+# [Languages.fr.params.banner]
+# title = "Comment pouvons nous aider?"
+# subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+# bg_image = "images/banner.jpg"
+# placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
+#
+# # call to action
+# [Languages.fr.params.cta]
+# enable = true
+# title = "Vous n'avez pas trouvé de réponse à votre question?"
+# content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
+# # call to action button
+# [Languages.fr.params.cta.button]
+# enable = true
+# label = "Contactez nous"
+# link = "contact/"
+#
+#
+# ################## french navigation #################
+# [[Languages.fr.menu.main]]
+# name = "Accueil"
+# url = "/"
+# weight = 1
+#
+# [[Languages.fr.menu.main]]
+# name = "Faq"
+# url = "faq/"
+# weight = 2
+#
+# [[Languages.fr.menu.main]]
+# name = "contact"
+# url = "contact/"
+# weight = 3
+#
+# # Dropdown menu
+# [[Languages.fr.menu.main]]
+# weight = 4
+# name = "docs"
+# hasChildren = true
+#
+#   [[Languages.fr.menu.main]]
+#   parent = "docs"
+#   name = "Installation"
+#   url = "installation/"
+#   weight = 1
+#
+#   [[Languages.fr.menu.main]]
+#   parent = "docs"
+#   name = "Billing and Pricing"
+#   url = "billing-pricing/"
+#   weight = 2
+#
+#   [[Languages.fr.menu.main]]
+#   parent = "docs"
+#   name = "Features"
+#   url = "features/"
+#   weight = 3
